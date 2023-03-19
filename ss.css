@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+  }
+.main{
+    border: 2px solid black;
+    margin:10%;
+    padding:100px;
+}
+.diplay{
+    border: 2px solid black;
+    background-color: black;
+    color:white;
+    text-align:right;
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+}
+.inputs{
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+}
+.flex-container {
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+}
+.btn{
+    background-color:#d8d9db;
+    text-align: center;
+    font-size:25px;
+    border: 1px solid black;
+    cursor:pointer;
+}
+.btns{
+    background-color:#dfb07e;
+    color:white;
+    text-align: center;
+    font-size:25px;
+    border: 1px solid black;
+    cursor:pointer;
+
+}
+.ai-grow .btn1{
+    flex-grow: 2;
+    width: 0px;
+}
+.ai-grow .btn2{
+    flex-grow: 1;
+    width: 0;
+}
+.ai-grow .btn3{
+    flex-grow: 1;
+    width: 0;
+}
+
+.ai-grow .btn4{
+    flex-grow: 1;
+    width: 0;
+}
+.ai-grow .btn5{
+    flex-grow: 1;
+    width: 0;
+}
+.ai-grow .btn6{
+    flex-grow: 1;
+    width: 0;
+}
+.ai-grow .btn7{
+    flex-grow: 1;
+    width: 0;
+}
+.ai-grow .btn8{
+    flex-grow:1;
+    width: 0;
+}
+.ai-grow .btn9{
+    flex-grow:1;
+    width: 0;
+}
