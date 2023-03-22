@@ -103,7 +103,6 @@ function handleNumber(number)
 }
 function init()
 {
-    console.log("HELLO")
     document
     .querySelector('.inputs')
     .addEventListener("click", function(event){
